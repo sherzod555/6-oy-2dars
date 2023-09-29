@@ -1,0 +1,25 @@
+.main_logo{
+    width: 281px;
+    height: auto;
+}
+
+.main_nav{
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 40px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.nav_menu_list a:hover{
+    color: #71A894;
+}

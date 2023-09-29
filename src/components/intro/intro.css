@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Vesper+Libre:wght@400;500;700;900&display=swap');
+/* font-family: 'Yeseva One', cursive; */
+
+.main_intro{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.intro_info{
+    max-width: 608px;
+    padding-top: 100px;
+}
+
+.intro_title{
+    font-family: 'Vesper Libre', serif;
+    font-size: 64px;
+    line-height: 80px;
+
+}
+
+.intro_desc{
+    padding: 24px 0 40px;
+    font-size: 21px;
+    line-height: 32px;
+    color: #66645E;
+    font-family: 'Open Sans';
+}
+
+.intro_button{
+    padding: 20px 24px;
+    border: none;
+    border-radius: 8px;
+    background: #71A894;
+    color: white;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.intro_button:hover{
+    background-color: #303031;
+}
+
+
+.intro_banner{
+    background-image: url(../../assets/Illustration.svg);
+    width: 1000px;
+    height: 540px;
+    margin-left: -100px;
+    margin-top: 70px;
+    overflow-x: visible;
+}
+
