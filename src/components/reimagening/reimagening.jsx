@@ -7,13 +7,17 @@ import icon4 from '../../assets/Icon-3.svg'
 import icon5 from '../../assets/Icon-4.svg'
 import icon6 from '../../assets/Icon-5.svg'
 
+import star from '../../assets/Star.svg'
+
 
 import member1 from '../../assets/Member2.png'
 import member2 from '../../assets/Member1.png'
 import member3 from '../../assets/Member.png'
 import member4 from '../../assets/ava-black.png'
 
-
+import ava1 from '../../assets/ava-3.png'
+import ava2 from '../../assets/ava-2.png'
+import ava3 from '../../assets/ava-1.png'
 
 
 const Reimagening = () =>{
@@ -154,6 +158,81 @@ const Reimagening = () =>{
                     <p className="course_box_desc">
                     You need talented people on-demand across various tasks that your full-time workforce can’t prioritize at the moment. As an Open Enterprise, you can easily fund tasks and have people apply to work on them in return for funds or shares.
                     </p>
+                </div>
+
+                <div className="conver_box">
+                    <div className="upper_convert">
+                        <div className="upper_header">
+                            <p className="uh_title">
+                            Write a how-to on Open Enterprise
+                            </p>
+                            <button className="uh_button">1 SHARE</button>
+                        </div>
+                        <p className="upper_desc">
+                        Looking for an amazing copywriter using Open Enterprise to help us write an article on how to get started.
+                        </p>
+                    </div>
+
+                    <div className="bottom_converts">
+
+                        <div className="applicants_list">
+                            <h4 className="applicants_title">
+                            3 applicants
+                            </h4>
+
+                                <div className="applicants_box">
+                                    <div className="rating">
+                                        <img src= {ava1} alt="mem" />
+                                        <p className="ava_name">Jason Kwon</p>
+                                    </div>
+                                        <div className="rating"><img src={star} alt="star" /><p className="ava_rating">4.8</p></div>
+                                </div>
+
+                                <div className="applicants_box">
+                                    <div className="rating">
+                                    <img src= {ava2} alt="mem" />
+                                        <p className="ava_name">Alex Rose</p>
+                                    </div>
+                                        <div className="rating"><img src={star} alt="star" /><p className="ava_rating">4.5</p></div>
+                                </div>
+
+                                <div className="applicants_box">
+                                    <div className="rating">
+                                    <img src= {ava3} alt="mem" />
+                                        <p className="ava_name">Lizzie Ulrich</p>
+                                    </div>
+                                        <div className="rating"><img src={star} alt="star" /><p className="ava_rating">4.2</p></div>
+                                </div>
+                        </div>
+
+                        <div className="ava_profile">
+                            <img className="ava2" src= {ava2} alt="mem" />
+                            <p className="profile_name">
+                            Alex Rose
+                            </p>
+                            <p className="profile_job">
+                            UX Writer
+                            </p>
+
+                            <div className="rating">
+                                <p>
+                                    4 commits
+                                </p>
+                                <div className="rating">
+                                    <img src={star} alt="star" />
+                                    <p className="ava_rating">
+                                        4.5
+                                    </p>
+                                </div>
+                            </div>
+
+                            <button className="view_profile_button">
+                            View profile
+                            </button>
+                            
+                        </div>
+
+                    </div>
                 </div>
 
             </div>
