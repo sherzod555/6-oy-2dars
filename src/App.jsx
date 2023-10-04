@@ -3,6 +3,8 @@ import Header from './components/header/header';
 import Intro from './components/intro/intro';
 import Reimagening from './components/reimagening/reimagening';
 import Help from './components/helpUs/help';
+import Footer from './components/footer/footer';
+
 
 
 function App() {
@@ -12,6 +14,8 @@ function App() {
     <Intro />
     <Reimagening/>
     <Help/>
+    <Footer/>
+
 
     </div>
   );

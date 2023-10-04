@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Vesper+Libre:wght@400;500;700;900&display=swap');
+
+
+
+.main_footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_info{
+    max-width: 644px;
+    padding-top: 44px;
+
+}
+
+.footer_title{
+    font-family: 'Vesper Libre', serif;
+    font-size: 48px;
+    line-height: 64px;
+
+}
+
+
+.footer_desc{
+font-size: 18px;
+line-height: 26px;
+padding: 24px 0 40px;
+color: #66645E;
+
+}
+
+.footer_button{
+    padding: 20px 24px;
+    border: none;
+    border-radius: 8px;
+    background: #71A894;
+    color: white;
+
+font-size: 18px;
+font-weight: 700;
+line-height: 24px;
+}
+
+.footer_button:hover{
+    background-color: #303031;
+
+}
+
+
+.footer_banner{
+    background-image: url(../../assets/plakat-footer.svg);
+    width: 100%;
+    height: 361px;
+
+}
+
+.footer_nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 120px;
+    padding-bottom: 40px;
+}
+
+.footer_nav_list{
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+}
+
+.footer_logo{
+    width: auto;
+    height: 32px;
+}
+
+.footer_nav_list a:hover{
+    color: #71A894;
+}
